@@ -28,4 +28,5 @@ for circle in time_p_6:
             time_sum_s = time_sum_s+b
 time_sum_m = time_sum_s//60
 time_sum_ost = time_sum_s%60
-print('Общее время: '+str(time_sum_m)+'m '+str(time_sum_ost)+'s' )
+print('Общее время: '+str(time_sum_m)+'мин '+str(time_sum_ost)+'сек')
+print('Добавил код, чтоб подтянулись изменения')
