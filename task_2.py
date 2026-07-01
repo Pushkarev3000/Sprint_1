@@ -1,11 +1,9 @@
 class Tester():
-    name = ''
-    deadline = True
 
     def __init__(self, name):
         self.name = name
 
-    def work_hard(self,deadline=True):
+    def work_hard(self, deadline=True):
         self.deadline = deadline
         if self.deadline:
             print(self.name, 'Что ж, ещё часок поработаю!')
